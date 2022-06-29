@@ -1,0 +1,517 @@
+:root {
+    --body-fonts: "Raleway", sans-serif;
+    --body-fonts2: "Vesper Libre", serif;
+    --body-fonts3: "Hammersmith One", sans-serif;
+}
+
+body {
+    background: linear-gradient(-45deg, #002D62, #1877F2, #0066b2, #F0F8FF);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    z-index: -1;
+    font-family: var(--body-fonts2);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card-title {
+    font-weight: 600;
+    font-family: var(--body-fonts2);
+}
+
+.navbar {
+    font-family: var(--body-fonts2);
+    font-weight: 500;
+}
+
+.text-contain {
+    font-family: var(--body-fonts2);
+}
+
+.main-container {
+    height:100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.nick-container {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-width: 5px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+ }
+.nick-picture {
+    max-width: 100%;
+    height: auto;   
+    position: relative;
+ }
+ .nick-picture-2 {
+    max-width: 100%;
+    height: auto;   
+    position: relative;
+ }
+.nick-img {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+.nick-img-2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 3;
+}
+.nick-picture::before {
+    content: '';
+    display: block;
+    background-image: url("../images/profile_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.nick-picture-2::before {
+    content: '';
+    display: block;
+    background-image: url("../images/cellobg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+
+.nick-profile-h2 {
+    text-align: center;
+    font-family: var(--body-fonts3);
+}
+.nick-profile-p {
+    text-align: center;
+}
+.nick-profile-footer-p {
+    text-align: center;
+    font-size: 0.85em;
+}
+
+.headspace {
+    height: 20vh;
+    display: block;
+}
+
+.container {
+    background-color: #f5f5f5;
+    z-index: 1;
+}
+.container-border-radius {
+    border-top-left-radius: .75em;
+    border-top-right-radius: .75em;
+}
+
+.performer-container {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.performer-img { 
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.performer-img-2 { 
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+.navbar {
+    width: 100%;
+}
+.fa {
+    padding: 0.2em;
+    font-size: 30px;
+    width: 3.75em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.2em;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    text-decoration: none;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    text-decoration: none;
+  }
+  .fa-github {
+    background:#444444;
+    color:white;
+    text-decoration: none;
+  }
+  .fa-calendar {
+    background: #fea55b;
+    color: white;
+    text-decoration: none;
+  }
+  .fa-envelope {
+    background: #FE5B63;
+    color: white;
+    text-decoration: none;
+  }
+  .fa-amazon {
+      background: #e47911;
+      color: white;
+      text-decoration: none;
+  }
+  .social-media-icons {
+      text-align: center;
+  }
+
+  .small-text {
+    font-size: xx-small;
+    text-align: right;
+  }
+
+.kentucky-logo {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.nick-kentucky {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.nick-kentucky-img {
+    max-width: 100%;
+    height: 290px;
+    position: relative;
+}
+
+.kentucky-img {
+    max-width: 100%;
+    height: 20vh;
+    position: relative;
+}
+
+.masters-text {
+    text-align: center;
+}
+
+.amazon-logo {
+    text-decoration: none;
+    background-color: none;
+    text-align: center;
+}
+
+.bookcard-margin {
+    margin-bottom: 4vh;
+}
+
+.book-image {
+    max-width: 100%;  
+    position: relative;
+    height: 200px;
+
+}
+
+
+.book-image-container {
+    max-width:100%;
+    display: inline-block;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-width: 5px;
+    margin-bottom: 1.2em;;
+}
+
+.bach-caption {
+    font-size: small;
+    text-align: center;
+}
+.bookshelf-container {
+    background-image: url("images/wooden_bg.jpg");
+    background-repeat: no-repeat;;
+    background-size: cover;
+}
+.card {
+    border: none;
+}
+
+.card-2 {
+    min-height: 33em;
+}
+
+.card-3 {
+    margin-top: 1em;
+}
+
+.card-4 {
+    min-height: 125vh;
+}
+
+.card-5 {
+    min-height: 28em;
+}
+
+.card-6 {
+    min-height: 26.5em;
+}
+
+.card-7 {
+    min-height: 39.5em;
+}
+
+.card-8 {
+    min-height: 13.25em;
+}
+
+.contrast-card {
+    background-color: #373D3F;
+    color: white;
+}
+
+.bookcard {
+    font-size: smaller;
+    text-align: center;
+}
+.leadership-platform {
+    text-align: center;
+}
+.smaller-text {
+    font-size: smaller;
+    text-align: center;
+}
+.summary-bg {
+    background-color: #f5f5f5;
+    margin-top: 0.25em;
+}
+
+.timeline {
+    border-left: 3px solid #727cf5;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: .6em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(114, 124, 245, 0.09);
+    margin: 0 auto;
+    max-width: 50%;
+    font-family: var(--body-fonts);
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.timeline h2,
+.timeline h3 {
+    font-weight: 600;
+    font-size: .85rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 1.5em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #727cf5;
+    box-shadow: 0 0 0 3px #727cf5;
+    left: -55.8px;
+    background: #fff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31px;
+    }
+}
+
+.rtl .timeline {
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+.rorak-logo {
+    max-height: 90%;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+/* Rorak Card5 Buttons */
+
+.card5 {
+    margin: auto;
+    width: 400px;
+    perspective: 1000px;
+    height: 20vh;
+  }
+  
+  .card5_inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card5_inner.is-flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .card5_face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card5_face-front {
+    background-image: linear-gradient(to bottom right, #603813 , #b29f94 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card6_face-front {
+    background-image: linear-gradient(to bottom right, #8e9eab , #eef2f3 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .card5_face-back {
+    transform: rotateY(180deg);
+    background-color: #373D3F;
+    color: white;
+  }
+  
+  .card5_content {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card5_body {
+    padding: 30px;
+  }
+
+.goallist {
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    
+   .lg6 { flex: 0 0 50%;
+    max-width: 50%; }
+}
